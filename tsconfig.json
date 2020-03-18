@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "incremental": true, 
+    "target": "es2017",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "declaration": true, 
+    "declarationMap": true, 
+    "sourceMap": true, 
+    "outDir": "./",
+    "rootDir": "./src",
+    "strict": true, 
+    "noUnusedLocals": true, 
+    "noUnusedParameters": true, 
+    "noImplicitReturns": true, 
+    "noFallthroughCasesInSwitch": true, 
+    "moduleResolution": "node",
+    "esModuleInterop": true, 
+    "experimentalDecorators": true, 
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": []
+}
