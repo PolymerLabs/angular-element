@@ -1,6 +1,6 @@
 {
   "name": "angular-element",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Web Components with Angular templates",
   "main": "angular-element.js",
   "module": "angular-element.js",
@@ -11,6 +11,13 @@
   "keywords": [],
   "author": "The Polymer Authors",
   "license": "BSD-3-Clause",
+  "files": [
+    "angular-element.js",
+    "angular-element.js.map",
+    "angular-element.d.ts",
+    "angular-element.d.ts.map"
+  ],
+  "types": "angular-element.d.ts",
   "dependencies": {
     "@angular/core": "^8.1.3",
     "lit-element": "^2.2.1"
